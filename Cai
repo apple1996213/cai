@@ -1,3 +1,3 @@
 hostname = mappsv5.caixin.com, 
-# > 010 财新 解锁付费文章（20200901）
+# > （20200901）
 https://mappsv5.caixin.com/articlev5/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/688c1ff84f53ba4839e71cf85e53ad2507ff7410/Crack/caixin.js
