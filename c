@@ -1,3 +1,3 @@
-hostname = mappsv5.caixin.com，
-# > (20200901)
-hostname = mappsv5.caixin.com, # > (20200901)https://mappsv5.caixin.com/articlev5/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cx.js
+var body = $response.body.replace('var isPay = document', 'var isPay = 1;  #').replace('var articleProperties', 'var articleProperties2').replace(/nickname\":\".*?\"/g, 'nickname\":\"已解锁\"').replace('isFree\":\\d', 'isFree\":0').replace('aType\":\\d', 'aType\":0').replace('feeType\":\\d', 'feeType\":0')
+
+$done({ body });
